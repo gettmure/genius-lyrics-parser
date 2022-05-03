@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  go:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./parsed_lyrics:/go/src/genius-lyrics-parser/parsed_lyrics
