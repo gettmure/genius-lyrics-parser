@@ -4,14 +4,13 @@
 Script performs parsing for every song per artist. List is hardcoded (for now) in `main.go`:
 
 ```GO
-var artist_ids = []int{
+var artistIds = []int{
     1267272, // morgenshtern
     988966,  // face
     1138683, // pasha technik
     1154082, // 1.kla$
     1312547, // black economy
 }
-
 ```
 
 # Tools

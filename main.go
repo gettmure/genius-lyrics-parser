@@ -18,7 +18,7 @@ func main() {
 
 	client := client.New()
 
-	var artist_ids = []int{
+	var artistIds = []int{
 		1267272, // morgenshtern
 		988966,  // face
 		1138683, // pasha technik
@@ -28,7 +28,7 @@ func main() {
 
 	baseLog.Println("start parsing...")
 
-	for _, artistId := range artist_ids {
+	for _, artistId := range artistIds {
 		genius.FetchArtistSongs(config, client, artistId)
 	}
 
