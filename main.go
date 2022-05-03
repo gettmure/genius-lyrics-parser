@@ -10,13 +10,6 @@ import (
 
 const ENV_PATH = ".env.local"
 
-const (
-	ARTISTS_COUNT int = 5
-
-	MIN_ARTIST_ID int = 1
-	MAX_ARTIST_ID int = 2000000
-)
-
 func main() {
 	baseLog.Println("starting, load config...")
 
