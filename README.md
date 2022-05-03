@@ -1,7 +1,7 @@
 # Description
 [Genius](https://genius.com) lyrics parser. It was created to make dataset for neural network, which writes its own lyrics based on parsed lyrics.
 
-Script performs parsing for every song per artist. It is hardcoded (for now) in `main.go`:
+Script performs parsing for every song per artist. List is hardcoded (for now) in `main.go`:
 
 ```GO
 var artist_ids = []int{
@@ -29,6 +29,8 @@ GENIUS_BASE_API_ENDPOINT=https://api.genius.com
 GENIUS_SONGS_API_ENDPOINT=songs
 GENIUS_ARTISTS_API_ENDPOINT=artists
 GENIUS_USER_AUTHORIZATION_TOKEN=token_from_genius_api_application
+
+# Genius has restricted access for Russia at the moment this parser was written.
 HTTP_PROXY=http://user:password@ip:port
 
 ```
